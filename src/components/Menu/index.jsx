@@ -10,12 +10,12 @@ export default function Menu({isDarkTheme}) {
         <div className="menu-item"><i className="bi bi-list menu-icon"></i>            </div>
     </PageMenu>
 
-    <MenuList isDarkTheme={isDarkTheme}>
+    <MenuList isDarkTheme={isDarkTheme} className="menuList">
         <header>Menu</header>
         <section>
-            <div className='menuList-item'><i class="bi bi-suit-heart-fill"></i> Posts</div>
-            <div className='menuList-item'><i class="bi bi-moon-stars-fill"></i>  Tema</div>
-            <div className='menuList-item'><i class="bi bi-gear-fill"></i>       Conta</div>
+            <div className='menuList-item'><i className="bi bi-suit-heart-fill"></i> Posts</div>
+            <div className='menuList-item'><i className="bi bi-moon-stars-fill"></i>  Tema</div>
+            <div className='menuList-item'><i className="bi bi-gear-fill"></i>       Conta</div>
         </section>
     </MenuList>
     </>);

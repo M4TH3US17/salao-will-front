@@ -8,9 +8,7 @@ display: flex;
 background: ${props => props.isDarkTheme ? color.primaryDarkColor : 
 'linear-gradient(180deg,'+color.primaryFontLightColor+', #f6f6f6)'};
 
-@media (max-width: 760px) {
-    margin-top:      25px;
-}
+@media (max-width: 760px) { margin-top: 25px; }
 `;
 
 export const User = styled.div`
@@ -20,7 +18,7 @@ cursor:       pointer;
 padding:      1px;
 margin-right: 8px;
 
-background: ${props => props.isDarkTheme ? 'black' : color.darkThemeGradient_2};
+//background: ${props => props.isDarkTheme ? 'black' : color.darkThemeGradient_2};
 
 border-top-left-radius:     50%;
 border-top-right-radius:    50%;
@@ -47,10 +45,5 @@ animation-iteration-count: 3;
 
 export const Animation = styled.div`
 display: flex;
-@keyframes pass-users {
-    0% {}
-    25% {}
-    50% {}
-    
-}
+width:   100%;
 `;

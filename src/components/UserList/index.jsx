@@ -1,7 +1,7 @@
 import React from 'react';
 import { Users, User, Animation } from './styled';
 
-export default function Categories({isDarkTheme}) {
+export default function UserList({isDarkTheme}) {
     return (
         <Users isDarkTheme={isDarkTheme}>
             <Animation>
@@ -20,6 +20,19 @@ export default function Categories({isDarkTheme}) {
             <User>
                 <img src="https://midias.agazeta.com.br/2020/08/27/-lancamento-da-pedra-presidente-jair-bolsonaro-no-lancamento-da-pedra-fundamental-para-a-duplicacao-da-br---469-em-foz-do-iguacu-307725-article.jpg" alt=""/>
             </User>
+
+            <User>
+                <img src="https://midias.agazeta.com.br/2020/08/27/-lancamento-da-pedra-presidente-jair-bolsonaro-no-lancamento-da-pedra-fundamental-para-a-duplicacao-da-br---469-em-foz-do-iguacu-307725-article.jpg" alt=""/>
+            </User>
+
+            <User>
+                <img src="https://midias.agazeta.com.br/2020/08/27/-lancamento-da-pedra-presidente-jair-bolsonaro-no-lancamento-da-pedra-fundamental-para-a-duplicacao-da-br---469-em-foz-do-iguacu-307725-article.jpg" alt=""/>
+            </User>
+
+            <User>
+                <img src="https://midias.agazeta.com.br/2020/08/27/-lancamento-da-pedra-presidente-jair-bolsonaro-no-lancamento-da-pedra-fundamental-para-a-duplicacao-da-br---469-em-foz-do-iguacu-307725-article.jpg" alt=""/>
+            </User>
+
             </Animation>
         </Users>
     );

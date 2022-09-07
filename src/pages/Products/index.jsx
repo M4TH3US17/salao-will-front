@@ -1,12 +1,12 @@
-import Header     from '../../components/Header'
-import Categories from '../../components/Users';
+import Header from '../../components/Header'
 import React  from 'react';
+import Slide  from '../../components/Slide';
 
 export default function Products({isDarkTheme}) {
     return (
         <>
           <Header isDarkTheme={isDarkTheme}/>
-          <Categories isDarkTheme={isDarkTheme}/>
+          <Slide  isDarkTheme={isDarkTheme}/>
         </>
     );
 }
