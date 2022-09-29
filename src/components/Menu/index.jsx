@@ -13,9 +13,9 @@ export default function Menu({isDarkTheme}) {
     <MenuList isDarkTheme={isDarkTheme} className="menuList">
         <header>Menu</header>
         <section>
-            <div className='menuList-item'><i className="bi bi-suit-heart-fill"></i> Posts</div>
-            <div className='menuList-item'><i className="bi bi-moon-stars-fill"></i>  Tema</div>
-            <div className='menuList-item'><i className="bi bi-gear-fill"></i>       Conta</div>
+            <div className='menuList-item'> Posts</div>
+            <div className='menuList-item'> Tema</div>
+            <div className='menuList-item'> Conta</div>
         </section>
     </MenuList>
     </>);

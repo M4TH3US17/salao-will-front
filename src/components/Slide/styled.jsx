@@ -2,8 +2,9 @@ import styled from "styled-components";
 import * as color from "../../config/colors";
 
 export const Container = styled.div`
-width:   100%;
-height:  250px;
+width:      100%;
+height:     250px;
+margin-top: 31px;
 
 .each-slide-effect > div {
     display:         flex;
@@ -26,12 +27,13 @@ height:  250px;
     background: #666;
   }
 
+@media (min-width: 1000px) { display: none; }
 @media (max-width: 760px) {
   .each-slide-effect > div { 
     height:     200px;
-    margin-top: 20px; opacity: 1 !important;
+    margin-top: 20px; 
+    opacity:    1 !important;
 }
-  .react-slideshow-container { margin-top: 31px;}
 }`;
 
 export const Image = styled.img`

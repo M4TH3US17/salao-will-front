@@ -51,10 +51,6 @@ background: ${props => props.isDarkTheme ? color.primaryDarkColor   : color.seco
     border-radius: 2px;
 }
 
-.bi.bi-moon-stars-fill { color: ${props => props.isDarkTheme ? color.iconMoonDarkColor : ''}; }
-
-.bi.bi-suit-heart-fill { color: ${props => props.isDarkTheme ? color.iconHeartDarkColor : ''};}
-
 header {
     font-size:   20px;
     font-weight: 600;

@@ -12,6 +12,3 @@ export const darkThemeGradient_1 = 'linear-gradient(50deg,  #fd8d32, #8f03a4, #f
 export const darkThemeGradient_2 = 'linear-gradient(200deg, #fd8d32, #ba07b1, #FA383E, #FA383E,#fd8d32, #f7bf26, #F5C33B)';
 export const darkThemeGradient_3 = 'linear-gradient(150deg, #fd8d32, #a307ba, #FA383E, #FA383E,#fd8d32, #ebbd40, #e3b843)';
 export const darkThemeGradient_4 = 'linear-gradient(300deg, #fd8d32, #a307ba, #FA383E, #FA383E,#fd8d32, #e2b537, #ebbd41)';
-
-export const iconHeartDarkColor = '#FA383E';
-export const iconMoonDarkColor  = '#F5C33B';
