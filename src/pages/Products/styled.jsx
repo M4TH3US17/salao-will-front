@@ -2,14 +2,22 @@ import styled     from "styled-components";
 import * as color from "../../config/colors";
 
 export const Listing = styled.section`{
-//background: blue; 
-overflow:   hidden;
-margin-top: 20px;
+display:    flex;
+justify-content: space-between;
+height:     92vh; 
 
-/*.row {
-    background: green;
+.list-cards { width: 100%; }
+
+.sidebar { 
+  width:       400px; 
+  border-left: 1px solid ${props => props.isDarkTheme ? color.secondaryDarkColor : '#ddd'};
+  background:  ${props => props.isDarkTheme ? color.primaryDarkColor : 'white'};
 }
-.col-sm-6 {
-    background: red
-}*/
+
+.row {
+ width:98%;
+}
+
+@media (max-width: 760px) { .sidebar {display: none} }
+@media (min-width: 1024px) {.list-cards { overflow-y: scroll; }}
 `;

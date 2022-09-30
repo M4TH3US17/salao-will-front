@@ -4,9 +4,8 @@ import * as color from "../../config/colors";
 export const NavService = styled.nav`
 display:         flex;
 justify-content: space-between;
-padding:         3px 10px 0px 10px;
+align-items:     center;
 color:           ${props => props.isDarkTheme ? color.primaryFontLightColor : 'black'};
-
 span {
     font-weight: ${props => props.isDarkTheme ? 'none' : '500'};
 }
@@ -17,16 +16,22 @@ span {
     border:     none;
 }
 
-.btn:hover {
-    border:none;
-}
+.btn:hover { border:none; }
 
 @media (min-width: 1000px) { 
-    margin: 5px;
-    .description-filter           { display: none; position: absolute; margin-top: 3px; right: 83px;}
+    margin:   8px 0px 5px 0px;
+    padding:  0px 100px 0px 100px;
+    .description-filter { 
+        display:    none; 
+        position:   absolute; 
+        margin-top: 2px;
+        z-index:    1;
+    }
     button:hover .description-filter{ display:block; }
  }
- @media (max-width: 760px) { .description-filter {display: none;} }
+ @media (max-width: 760px) { 
+    padding:  0px 17px 0px 15px;
+    .description-filter {display: none;} margin-bottom: 8px; }
 `;
 
 export const ButtonFilter = styled.button`
@@ -45,11 +50,11 @@ i {
 `;
 
 export const ButtonAgendamento = styled.button`
-height: 27px;
-width: 89px;
+height:    27px;
+width:     89px;
 font-size: 11px;
-padding: 0px;
-border: none;
+padding:   0px;
+border:    none;
 
 background: ${props => props.isDarkTheme ? '#8ab4f8' : '#20c997'};
 `;

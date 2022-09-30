@@ -8,7 +8,7 @@ color:    white;
 position: relative;
 cursor:   pointer;
 
-margin-left: 10px;
+margin-left: 25px;
 
 .card-description {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.02));
@@ -29,5 +29,9 @@ img {
 .card-title, .card-subtitle {
 margin-left: 10px; 
 opacity: 0.9;
+}
+
+@media (max-width: 760px) {
+    width: 100%; margin-left: 12px;
 }
 `;
