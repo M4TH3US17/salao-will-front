@@ -27,11 +27,16 @@ margin-top: 31px;
     background: #666;
   }
 
-@media (min-width: 1000px) { display: none; }
+@media (min-width: 1000px) { 
+  width:    300px; 
+  position: relative;
+  margin-top: 5px;
+  .each-slide-effect > div { height: 200px;}  
+}
 @media (max-width: 760px) {
   .each-slide-effect > div { 
     height:     200px;
-    margin-top: 20px; 
+    margin-top: 20px;
     opacity:    1 !important;
 }
 }`;
@@ -42,4 +47,6 @@ width:    100%;
 position: absolute;
 filter:   blur(0.4px);
 opacity:  0.4;
+
+@media (min-width: 1000px) { display: none; }
 `;

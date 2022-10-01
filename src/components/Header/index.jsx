@@ -1,4 +1,6 @@
-import React  from 'react';
+import React,  { 
+    useEffect, 
+    useState }from 'react';
 import Menu   from './../Menu';
 import Search from '../Search/index';
 import { Header as Heading } from './styled.jsx';

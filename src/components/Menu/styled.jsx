@@ -5,7 +5,8 @@ export const Menu = styled.nav`
 display:         flex;
 justify-content: space-between;
 
-.bi.bi-list:hover + div { display: block}
+.bi.bi-list:hover + div { display: block;}
+.bi.bi-x-lg             { display: none; font-size: 20px;}
 
 .menu-item { margin-right: 20px; }
 

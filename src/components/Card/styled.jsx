@@ -6,7 +6,8 @@ width:    300px;
 height:   200px;
 color:    white; 
 position: relative;
-cursor:   pointer;
+cursor:   pointer; 
+box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
 
 margin-left: 25px;
 
@@ -33,5 +34,11 @@ opacity: 0.9;
 
 @media (max-width: 760px) {
     width: 100%; margin-left: 12px;
+} 
+
+.card-description { animation: load-card-description 2s;}
+@keyframes load-card-description {
+    from {opacity: 0;}
+    to   {opacity: 1;}
 }
 `;

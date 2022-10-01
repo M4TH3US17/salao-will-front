@@ -10,7 +10,7 @@ input {
   outline: none;
 
   color:            ${props => props.isThemeDark ? color.primaryFontLightColor :  color.primaryDarkColor};
-  background-color: ${props => props.isThemeDark ? color.secondaryDarkColor : color.primaryFontLightColor};
+  background-color: ${props => props.isThemeDark ? color.secondaryDarkColor : ''};
 
   border:                     none;
   border-bottom-left-radius:  20px;

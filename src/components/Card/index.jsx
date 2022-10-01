@@ -4,7 +4,8 @@ import './styled.jsx';
 
 export default function Card({isDarkTheme, src, isAdmin}) {
     return (
-        <CardService>
+        <div className="col-sm-6 col-lg-6 col-xl-4 mb-4">
+        <CardService className={'card-service'}>
             <img src={src} alt=''/>
 
             <div className={'card-description'}>
@@ -12,5 +13,6 @@ export default function Card({isDarkTheme, src, isAdmin}) {
                 <p className={"card-subtitle"}>bla bla bla bla</p>
             </div>
         </CardService>
+        </div>
     );
 };

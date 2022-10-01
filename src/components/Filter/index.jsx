@@ -20,7 +20,6 @@ export default function Filter({isDarkTheme}) {
                isDarkTheme={isDarkTheme}>
                 Agendamentos
                </ButtonAgendamento>
-
             </div>
         </NavService>);
 };

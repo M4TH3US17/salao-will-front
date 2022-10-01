@@ -26,7 +26,6 @@ export default function Slide() {
     return (
         <Container className='slide-container'>
             <Image src={images[0]} />
-
             
             <Slides {...properties}>
             <div className="each-slide-effect">
