@@ -7,7 +7,7 @@ flex-direction: column;
 padding:        10px;
 max-width:      600px;
 position:       fixed;
-top:            100px;
+top:            130px;
 left:           28%;
 z-index:        3000;
 border-radius:  5px;
@@ -34,6 +34,22 @@ td {
 .scroll { overflow-y: scroll;}
 
 @media (max-width: 760px) { left: 0px; }
+
+animation: open-modal-animation 220ms;
+
+@keyframes open-modal-animation {
+    0% { 
+        transform:  translateY(-9%); 
+        transition: 0.4s;
+        opacity:    0.2;
+    }
+
+    100% { 
+        transform: translateY(0%); 
+        opacity:   1;
+        transition: 0.1s;
+    }
+}
 `;
 
 export const ModalEffect = styled.div`
@@ -46,4 +62,19 @@ background: rgba(0, 0, 0, 0.3);
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(0.7px);
 -webkit-backdrop-filter: blur(0.7px);
+
+animation: open-modalEffect-animation 220ms;
+
+@keyframes open-modalEffect-animation {
+    0% {
+        opacity:         0.8;
+        backdrop-filter: blur(0.2px);
+    }
+
+    100% { 
+        backdrop-filter: blur(0.7px);
+        opacity:         1;
+        transition:      0.4s;
+    }
+}
 `;
