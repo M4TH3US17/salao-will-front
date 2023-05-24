@@ -1,5 +1,6 @@
 import Products from './pages/Products';
 import GlobalStyle from './config/GlobalStyle';
+import 'animate.css';
 
 function App() {
   return (

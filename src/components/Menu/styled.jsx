@@ -38,7 +38,7 @@ top:      52px;
 right:    0px;
 padding:  9px;
 width:    200px;
-z-index:  11;
+z-index: 2;
 
 box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 0px 0 rgba(0, 0, 0, 0.10);
 border:     ${props => props.isDarkTheme ? color.secondaryDarkColor : '#ececec'} 0.5px solid;

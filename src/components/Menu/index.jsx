@@ -16,12 +16,12 @@ export default function Menu({isDarkTheme}) {
         <div className="menu-item"><i className="bi bi-house-heart-fill menu-icon"></i></div>
         <div className="menu-item"><i className="bi bi-person-circle menu-icon"></i>   </div>
         <div className="menu-item">
-            <i className="bi bi-x-lg"></i>
+            <i className="bi bi-x-lg  animate__animated animate__rotateIn"></i>
             <i className="bi bi-list menu-icon"></i>            
         </div>
     </PageMenu>
 
-    <MenuList isDarkTheme={isDarkTheme} className="menuList">
+    <MenuList isDarkTheme={isDarkTheme} className="menuList animate__animated animate__bounceInRight">
         <header>Menu</header>
         <section>
             <div className='menuList-item'> Posts</div>

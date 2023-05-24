@@ -39,6 +39,10 @@ margin-top: 31px;
     margin-top: 20px;
     opacity:    1 !important;
 }
+
+.nav {
+  display: none;
+}
 }`;
 
 export const Image = styled.img`
